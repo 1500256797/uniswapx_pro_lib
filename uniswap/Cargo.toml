@@ -1,0 +1,20 @@
+[package]
+name = "uniswap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+chrono = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+alloy = { workspace = true }
+alloy-sol-types = { workspace = true }
+tiny-keccak = { workspace = true }
+serde_json = { workspace = true }
+derive_builder = { workspace = true }
+rust_decimal = { workspace = true }
+rust_decimal_macros = { workspace = true }
+serde = { workspace = true }
+eip712 = { workspace = true }
+ethabi = { workspace = true }
